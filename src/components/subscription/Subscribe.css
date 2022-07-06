@@ -1,9 +1,11 @@
+.subscribe{
+background: #6060b9;
+}
 .subscribe .contact {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    background: #6060b9;
     padding: 70px;
 }
 
@@ -68,15 +70,22 @@
 }
 
 @media screen and (max-width:912px) {
+    .subscribe{
+        padding: 70px 70px;
+    }
 .subscribe .contact {
+        width: 100%;
         flex-direction: column;
         padding: 70px 0;
     }
 
     .subscribe .contact-point {
         padding: 0;
+        width: 100%;
     }
-
+    .subscribe .contact .contact-msg{
+        width: 100%;
+    }
     .subscribe .contact .contact-msg h2,
     .subscribe .contact .contact-msg p {
         text-align: center;
@@ -85,12 +94,12 @@
     }
 
     .subscribe .contact-point input[type='email'] {
-        padding: 13px 10px;
+        padding: 15px 10px;
         width: 100%;
     }
 
     .subscribe .contact-point button[type='submit'] {
-        padding: 13px 10px;
+        padding: 15px 10px;
         width: 100%;
         margin-left: 0;
     }
@@ -100,9 +109,32 @@
     }
 
 }
+@media screen and(max-width:600px){
+    .subscribe {
+            padding: 70px 30px;
+        }
+}
 @media screen and (max-width:414px) {
-
+            .subscribe {
+                    padding: 70px 20px;
+                }
     .subscribe .contact .contact-msg p {
             font-size: 14px;
         }
+
+            .subscribe .contact-point input[type='email'] {
+        padding: 15px 10px;
+        width: 100%;
+    }
+
+    .subscribe .contact-point button[type='submit'] {
+        padding: 15px 10px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    button[type='submit'] {
+        margin-left: 0;
+    }
+
 }
