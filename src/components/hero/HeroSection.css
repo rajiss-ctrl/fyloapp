@@ -18,11 +18,13 @@
     font-size: 42px;
     padding-right: 10px;
     margin-bottom: 20px;
+    color: #343052;
 }
 
 .hero-content p {
     padding-right: 22%;
     margin-bottom: 20px;
+    color: #343052;
 }
 
 input[type='email'] {
@@ -47,12 +49,12 @@ button[type='submit'] {
     border: none;
     outline: none;
     border-radius: 3px;
-    background: #3636c3;
+    background:#6b9bff;
     color: #ffffff;
 }
 
 .signup p {
-    color: #faa4b2;
+    color:#d585a1;
     font-size: 14px;
 }
 

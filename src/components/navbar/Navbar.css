@@ -4,6 +4,7 @@
     justify-content: space-between;
     padding: 20px 70px;
     position: relative;
+    color: #343052;
 }
 .top-nav nav ul {
     display: flex;
@@ -15,7 +16,7 @@
 }
 .top-nav nav ul li a {
     text-decoration: none;
-    color: #000000;
+    color: #343052;
 }
 
 @media screen and (max-width:912px) {
