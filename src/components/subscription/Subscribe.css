@@ -52,9 +52,8 @@
 
 .subscribe .contact-point button[type='submit'] {
     padding: 13px 10px;
-    width: 80%;
+    width: 35%;
     margin: 20px 0;
-    text-align: left;
     cursor: pointer;
     border: none;
     outline: none;
@@ -62,12 +61,11 @@
     background: #3636c3;
     color: #ffffff;
 }
-/* @media screen and (max-width:1024px) {
+@media screen and (max-width:1024px) {
     .subscribe .contact-point button[type='submit'] {
-        
-        
+        width: 44%;
     }
-} */
+}
 
 @media screen and (max-width:912px) {
 .subscribe .contact {

@@ -8,7 +8,7 @@ const Subscribe = ({alert,handleClick}) => {
             <div className="contact-msg">
                 <h2>Get early access today</h2>
                 <p>It only takes a minute to sign up and our free stater tier is exetremely generous.
-                    If you hav eany questions, our support team would be happy to help you.
+                    If you have any questions, our support team would be happy to help you.
                 </p>
             </div>
             <div className="contact-point">
