@@ -1,0 +1,110 @@
+.subscribe .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background: #6060b9;
+    padding: 70px;
+}
+
+.subscribe .contact .contact-msg h2 {
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.subscribe .contact .contact-msg p {
+    color: #ffffff;
+    margin-bottom: 20px;
+    padding-right: 130px;
+}
+
+.subscribe .contact-msg,
+.contact-point {
+    width: 50%;
+}
+
+.subscribe .contact-point {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.subscribe .contact-point input[type='email'] {
+    padding: 13px 10px;
+    width: 80%;
+    border: none;
+    border: 1px solid #7504c0;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.subscribe .contact-point input[type='email']:focus {
+    border: 1px solid #fbaebb;
+}
+
+.subscribe .contact-point p {
+    font-size: 14px;
+    color: #ffc0cb;
+}
+
+.subscribe .contact-point button[type='submit'] {
+    padding: 13px 10px;
+    width: 80%;
+    margin: 20px 0;
+    text-align: left;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background: #3636c3;
+    color: #ffffff;
+}
+/* @media screen and (max-width:1024px) {
+    .subscribe .contact-point button[type='submit'] {
+        
+        
+    }
+} */
+
+@media screen and (max-width:912px) {
+.subscribe .contact {
+        flex-direction: column;
+        padding: 70px 0;
+    }
+
+    .subscribe .contact-point {
+        padding: 0;
+    }
+
+    .subscribe .contact .contact-msg h2,
+    .subscribe .contact .contact-msg p {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .subscribe .contact-point input[type='email'] {
+        padding: 13px 10px;
+        width: 100%;
+    }
+
+    .subscribe .contact-point button[type='submit'] {
+        padding: 13px 10px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    button[type='submit'] {
+        margin-left: 0;
+    }
+
+}
+@media screen and (max-width:414px) {
+
+    .subscribe .contact .contact-msg p {
+            font-size: 14px;
+        }
+}

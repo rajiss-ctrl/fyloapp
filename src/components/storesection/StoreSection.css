@@ -1,0 +1,168 @@
+@media screen and (min-width:913px) {
+
+    section {
+        background-image: url(../../images/bg-curve-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 90px;
+        display: flex;
+        align-items: center;
+        padding: 70px 70px;
+    }
+}
+
+section img.illustration {
+    width: 45%;
+}
+
+section .storage h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+section .storage p {
+    margin-bottom: 20px;
+    padding-right: 30%;
+}
+
+section .storage a {
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #07b6b6;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 2px solid #07b6b6;
+    width: 160px;
+    padding-bottom: 5px;
+}
+
+
+.storage .card-section .card {
+    width: 70%;
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
+    border-radius: 5px;
+}
+
+.storage .card-section .card p {
+    width: 100%;
+    padding-right: 0;
+}
+
+.testimony {
+    display: flex;
+    align-items: center;
+}
+
+.card .testimony img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.testimony .msg {
+    padding-left: 5px;
+}
+
+.testimony span {
+    font-weight: normal;
+    font-size: 12px;
+    color: #949191;
+}
+
+@media screen and (max-width:912px) {
+
+    section {
+            background-image: url(../../images/bg-curve-mobile.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            margin-top: 90px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 70px 70px;
+        }
+    
+        section .storage {
+            order: 1;
+            width: 100%;
+        }
+    
+        section img.illustration {
+            width: 80%;
+            margin: 50px 0;
+        }
+    
+        section .storage .fylo-work {
+            display: flex;
+            justify-content: center;
+            margin: 30px 0;
+        }
+    
+        section .storage .card-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+}
+
+@media screen and (max-width:600px) {
+    section {
+        padding: 20px 40px;
+    }
+        section .storage h2 {
+            font-size: 30px;
+        }
+}
+
+@media screen and (max-width:414px) {
+    section .storage .card-section {
+        width: 100%;
+    }
+
+    section .storage .card-section .card {
+        width: 100%;
+    }
+        section .storage {
+            margin-top: 10px;
+            padding-bottom: 29px;
+        }
+    
+        section .storage h2 {
+            font-size: 18px;
+        }
+    
+        section .storage p {
+            padding-right: 0px;
+            width: 100%;
+        }
+    
+        .card-section .card {
+            padding: 10px 10px;
+        }
+    
+        .card-section .card p {
+            font-size: 14px;
+        }
+    
+        .card .testimony img {
+            width: 30px;
+            height: 30px;
+        }
+    
+        .testimony .msg h4 {
+            font-size: 9px;
+        }
+    
+        .testimony .msg span {
+            font-size: 9px;
+        }
+}
